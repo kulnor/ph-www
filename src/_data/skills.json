@@ -1,0 +1,54 @@
+{
+    "development": {
+        "strong": [
+            "Python",
+            "Node.js",
+            "TS / React",
+            "GitHub / CoPilot"
+        ],
+        "comfortable": [
+            "Rust",
+            "Java",
+            "Alpine.js"
+        ],
+        "legacy": [
+            "C",
+            "C++",
+            "COBOL",
+            "Pascal",
+            "Clipper"
+        ]
+    },
+    "apis": {
+        "strong": [
+            "OpenAPI",
+            "REST",
+            "Postman"
+        ],
+        "comfortable": [
+            "GraphQL",
+            "AsyncAPI",
+            "SPARQL"
+        ]
+    },
+    "ai": [
+        "Google",
+        "OpenAI",
+        "Anthropic",
+        "Agents",
+        "Knowledge Graphs"
+    ],
+    "metadata": [
+        "DDI",
+        "FAIR",
+        "JSON",
+        "RDF / Graphs",
+        "XML",
+        "DCAT"
+    ],
+    "standards": [
+        "CODATA CDIF",
+        "Croissant",
+        "SDMX"
+    ]
+}

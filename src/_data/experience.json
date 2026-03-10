@@ -1,0 +1,46 @@
+[
+    {
+        "company": "FREELANCE",
+        "role": "Senior Information Scientist",
+        "period": "2025 - Present",
+        "description": "Fostering discovery, access, use, and quality of high-value data and machine intelligence.",
+        "highlights": [
+            "Developed open-source packages for delivery of standard metadata over APIs.",
+            "Integrated data with LLMs and agents to create digital knowledge.",
+            "Participating in CODATA CDIF, DRUM, and MLCommons Croissant working groups."
+        ]
+    },
+    {
+        "company": "POSTMAN INC.",
+        "role": "Data Lead",
+        "period": "2022 - 2025",
+        "description": "Collaborated with Postman Open Technologies to automate data publication.",
+        "highlights": [
+            "Automated publication of high-value data through the Postman platform.",
+            "Created open-source data/metadata processing packages.",
+            "Developed fully documented, data-centric collections in Postman."
+        ]
+    },
+    {
+        "company": "MTNA (Metadata Technology North America)",
+        "role": "R&D Lead / Executive",
+        "period": "2007 - 2022",
+        "description": "Led development of metadata-driven data infrastructure globally.",
+        "highlights": [
+            "Launched RDS (Rich Data Services) and Ariā platforms.",
+            "Established secure data portals for NSF, CBE, and national statistical offices.",
+            "Partnered with global agencies to advance metadata standards."
+        ]
+    },
+    {
+        "company": "THE WORLD BANK",
+        "role": "Information Officer",
+        "period": "2000 - 2007",
+        "description": "Information processing and data-centric projects for international organizations.",
+        "highlights": [
+            "Major contributor to DDI Codebook and Lifecycle standards.",
+            "Developed the Africa Household Survey Databank.",
+            "Member of the team that launched the International Household Survey Network (IHSN)."
+        ]
+    }
+]

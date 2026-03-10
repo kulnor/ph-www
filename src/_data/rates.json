@@ -1,0 +1,35 @@
+[
+    {
+        "category": "Standard",
+        "target": "Public / Academic / Non-Profit",
+        "range": "$500 - $1,000 / day",
+        "description": "Adjusted rates for organizations contributing to public good, open data, or academic research.",
+        "features": [
+            "Strategic Research",
+            "FAIRification",
+            "Workshop Facilitation"
+        ]
+    },
+    {
+        "category": "Premium",
+        "target": "Private Sector / Corporate",
+        "range": "$1,200+ / day",
+        "description": "Standard industry consulting rates for specialized technical implementation and guidance.",
+        "features": [
+            "Architectural Design",
+            "Enterprise AI Strategy",
+            "Priority Support"
+        ]
+    },
+    {
+        "category": "Pro-Bono",
+        "target": "Open Source / Vision-Aligned",
+        "range": "$0 / day",
+        "description": "For projects that align perfectly with my vision or for contributors who cannot afford to pay.",
+        "features": [
+            "Open Standards Work",
+            "Community Building",
+            "Visionary Coaching"
+        ]
+    }
+]

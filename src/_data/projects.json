@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Data Artifex",
+        "url": "https://github.com/DataArtifex",
+        "description": "Open source ecosystem that elevates data into API-powered, machine-actionable digital knowledge.",
+        "type": "Project"
+    },
+    {
+        "title": "High-Value Data Network",
+        "url": "https://www.highvaluedata.net",
+        "description": "Public services for discovery and access to high-value datasets.",
+        "type": "Service"
+    },
+    {
+        "title": "CODATA CDIF / DRUM",
+        "url": "https://codata.org",
+        "description": "Advancing the Cross-Domain Integration Framework and Digital Representation of Units of Measure.",
+        "type": "Community"
+    },
+    {
+        "title": "MLCommons Croissant",
+        "url": "https://mlcommons.org",
+        "description": "Developing standard metadata formats for machine learning datasets.",
+        "type": "Standard"
+    },
+    {
+        "title": "DDI Alliance",
+        "url": "https://ddialliance.org",
+        "description": "Strategic contribution to the Data Documentation Initiative standards ecosystem.",
+        "type": "Standard"
+    }
+]

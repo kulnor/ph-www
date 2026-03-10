@@ -1,0 +1,26 @@
+[
+    {
+        "level": "Buy me a coffee",
+        "price": "$5",
+        "benefit": "Makes you feel good!",
+        "accent": "primary"
+    },
+    {
+        "level": "Special Thanks",
+        "price": "$50",
+        "benefit": "Early access to tools/APIs, premium API keys, and services.",
+        "accent": "purple"
+    },
+    {
+        "level": "Public Partner",
+        "price": "$500",
+        "benefit": "2hrs 1-on-1 per month, public acknowledgment, professional discounts.",
+        "accent": "green"
+    },
+    {
+        "level": "Signature Sponsor",
+        "price": "$5000",
+        "benefit": "Logo on project sites, 8hrs 1-on-1 per month, priority communication.",
+        "accent": "orange"
+    }
+]

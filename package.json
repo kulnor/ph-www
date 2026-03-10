@@ -1,0 +1,28 @@
+{
+  "name": "ph-www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"pnpm watch:eleventy\" \"pnpm watch:tailwind\"",
+    "watch:eleventy": "pnpm exec eleventy --serve",
+    "watch:tailwind": "pnpm exec tailwindcss -i ./src/assets/css/styles.css -o ./src/assets/css/main.css --watch",
+    "build": "pnpm exec tailwindcss -i ./src/assets/css/styles.css -o ./src/assets/css/main.css && pnpm exec eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@tailwindcss/cli": "^4.2.1",
+    "autoprefixer": "^10.4.27",
+    "concurrently": "^9.2.1",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.1"
+  },
+  "dependencies": {
+    "alpinejs": "^3.15.8",
+    "three": "^0.183.2"
+  }
+}
