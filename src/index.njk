@@ -86,9 +86,9 @@ title: Pascal Heus | Data, Metadata & AI Strategist
                 <div class="pt-4 border-t border-white/10">
                     <div class="flex flex-wrap gap-2">
                         {% for service in services %}
-                        <span class="px-3 py-1.5 rounded-lg bg-primary-500/10 border border-primary-500/20 text-[10px] sm:text-xs font-bold uppercase tracking-wider text-primary-300">
+                        <a href="#service-{{ loop.index }}" class="px-3 py-1.5 rounded-lg bg-primary-500/10 border border-primary-500/20 text-[10px] sm:text-xs font-bold uppercase tracking-wider text-primary-300 hover:bg-primary-500/20 transition-colors">
                             {{ service.title }}
-                        </span>
+                        </a>
                         {% endfor %}
                     </div>
                 </div>
@@ -115,7 +115,7 @@ title: Pascal Heus | Data, Metadata & AI Strategist
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {% for service in services %}
-            <div class="glass p-8 rounded-2xl hover:border-primary-500/50 transition-all duration-300 group flex flex-col hover:shadow-2xl hover:shadow-primary-500/10">
+            <div id="service-{{ loop.index }}" class="glass p-8 rounded-2xl hover:border-primary-500/50 transition-all duration-300 group flex flex-col hover:shadow-2xl hover:shadow-primary-500/10">
                 <div class="h-12 w-12 bg-primary-500/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-primary-500/20 transition-all">
                     {% if service.icon == 'transformation' %}
                     <svg aria-hidden="true" class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
@@ -363,7 +363,7 @@ title: Pascal Heus | Data, Metadata & AI Strategist
                 </p>
                 <div class="text-sm text-slate-400 mt-2">Based in Canada 🇨🇦 • Operating Globally 🌎</div>
         <div class="flex flex-col sm:flex-row justify-center gap-6 pt-6">
-             <a href="mailto:pascal.heus@gmail.com" class="btn-primary px-10 py-4 shadow-primary-500/40">
+             <a href="mailto:pascal@highvaluedata.net" class="btn-primary px-10 py-4 shadow-primary-500/40">
                 Start a Conversation
              </a>
              <a href="https://linkedin.com/in/pascal" target="_blank" class="glass px-10 py-4 rounded-full font-bold hover:bg-white/10 transition-all border-white/10">
