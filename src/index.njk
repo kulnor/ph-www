@@ -20,13 +20,6 @@ title: Pascal Heus | Data, Metadata & AI Strategist
                 Decades of IT and scientific expertise bridging technical depth with creative flair to transform data into a machine and user friendly high-value digital commodity.
             </p>
 
-            <div class="flex flex-wrap gap-2 pt-2">
-                {% for service in services %}
-                <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] font-bold uppercase tracking-wider text-slate-400">
-                    {{ service.title }}
-                </span>
-                {% endfor %}
-            </div>
             
             <div class="flex flex-col sm:flex-row gap-4 pt-4">
                 <a href="/#services" class="btn-primary flex justify-center items-center">
@@ -88,6 +81,16 @@ title: Pascal Heus | Data, Metadata & AI Strategist
                         <svg class="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                     </div>
                     <span class="text-sm font-medium">Jack of all trades, Master of MANY.</span>
+                </div>
+
+                <div class="pt-4 border-t border-white/10">
+                    <div class="flex flex-wrap gap-2">
+                        {% for service in services %}
+                        <span class="px-2.5 py-1 rounded-lg bg-primary-500/5 border border-primary-500/10 text-[9px] font-bold uppercase tracking-wider text-primary-300/80">
+                            {{ service.title }}
+                        </span>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
