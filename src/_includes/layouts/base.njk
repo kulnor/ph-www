@@ -3,8 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title or "Pascal Heus | Data, Metadata & AI Expert" }}</title>
-    <meta name="description" content="{{ description or "Portfolio of Pascal Heus - 40 years of expertise in IT, Data, Metadata, and AI Transformation." }}">
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <title>{{ title or site.name }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    <meta name="keywords" content="Pascal Heus, Data Strategist, AI, Metadata, DDI, SDMX, Agentic AI, Digital Transformation">
+    <meta name="author" content="{{ site.author }}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{{ title or site.name }}">
+    <meta property="og:description" content="{{ description or site.description }}">
+    <meta property="og:image" content="{{ site.url }}{{ site.ogImage }}">
+    <meta property="og:image:alt" content="Pascal Heus - Data & AI Strategist">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="twitter:title" content="{{ title or site.name }}">
+    <meta property="twitter:description" content="{{ description or site.description }}">
+    <meta property="twitter:image" content="{{ site.url }}{{ site.ogImage }}">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Pascal Heus",
+      "url": "{{ site.url }}",
+      "jobTitle": "Data & AI Strategist",
+      "sameAs": [
+        "https://linkedin.com/in/pascal",
+        "https://github.com/kulnor"
+      ],
+      "description": "{{ site.description }}"
+    }
+    </script>
+
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
