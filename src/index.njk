@@ -19,6 +19,14 @@ title: Pascal Heus | Data, Metadata & AI Strategist
             <p class="text-lg sm:text-xl text-slate-300 max-w-lg leading-relaxed">
                 Decades of IT and scientific expertise bridging technical depth with creative flair to transform data into a machine and user friendly high-value digital commodity.
             </p>
+
+            <div class="flex flex-wrap gap-2 pt-2">
+                {% for service in services %}
+                <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] font-bold uppercase tracking-wider text-slate-400">
+                    {{ service.title }}
+                </span>
+                {% endfor %}
+            </div>
             
             <div class="flex flex-col sm:flex-row gap-4 pt-4">
                 <a href="/#services" class="btn-primary flex justify-center items-center">
@@ -48,7 +56,7 @@ title: Pascal Heus | Data, Metadata & AI Strategist
                 
                 <div class="space-y-2">
                     <span class="text-slate-400 text-sm font-medium uppercase tracking-widest">IT Experience</span>
-                    <div class="text-[3.5rem] font-black font-display tracking-tight leading-none">40+ Years</div>
+                    <div class="text-[4.5rem] font-black font-display tracking-tight leading-none">40+ Years</div>
                 </div>
                 
                 <div class="flex items-start gap-8">
