@@ -12,9 +12,15 @@
         "type": "Service"
     },
     {
-        "title": "CODATA CDIF / DRUM",
+        "title": "CODATA CDIF",
         "url": "https://codata.org",
-        "description": "Advancing the Cross-Domain Integration Framework and Digital Representation of Units of Measure.",
+        "description": "Cross-Domain Integration Framework (CDIF): Advancing interoperability for machine-actionable data.",
+        "type": "Community"
+    },
+    {
+        "title": "DRUM",
+        "url": "https://codata.org/initiatives/drum",
+        "description": "Digital Representation of Units of Measure (DRUM): Enhancing machine-readability of scientific data.",
         "type": "Community"
     },
     {
