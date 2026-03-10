@@ -965,6 +965,10 @@
     --tw-leading: 0.9;
     line-height: 0.9;
   }
+  .leading-none {
+    --tw-leading: 1;
+    line-height: 1;
+  }
   .leading-relaxed {
     --tw-leading: var(--leading-relaxed);
     line-height: var(--leading-relaxed);
