@@ -1,7 +1,7 @@
 [
     {
         "company": "FREELANCE",
-        "role": "Senior Information Scientist",
+        "role": "Information Scientist, Data Engineer, AI Explorer",
         "period": "2025 - Present",
         "description": "Fostering discovery, access, use, and quality of high-value data and machine intelligence.",
         "highlights": [
@@ -16,7 +16,7 @@
         "period": "2022 - 2025",
         "description": "Collaborated with Postman Open Technologies to automate data publication.",
         "highlights": [
-            "Automated publication of high-value data through the Postman platform.",
+            "Automated publication of high-value data through APIs.",
             "Created open-source data/metadata processing packages.",
             "Developed fully documented, data-centric collections in Postman."
         ]
@@ -36,10 +36,10 @@
         "company": "THE WORLD BANK",
         "role": "Information Officer",
         "period": "2000 - 2007",
-        "description": "Information processing and data-centric projects for international organizations.",
+        "description": "Information processing and data-centric projects for international organizations and national statistical agencies.",
         "highlights": [
-            "Major contributor to DDI Codebook and Lifecycle standards.",
             "Developed the Africa Household Survey Databank.",
+            "Major contributor to DDI Codebook and Lifecycle standards.",
             "Member of the team that launched the International Household Survey Network (IHSN)."
         ]
     }

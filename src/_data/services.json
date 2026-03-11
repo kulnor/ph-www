@@ -4,32 +4,10 @@
         "icon": "transformation",
         "description": "Guidance on transforming data management environments: technologies, practices, workflows, APIs, metadata standards, publication, and security/disclosure control.",
         "details": [
-            "Legacy to Cloud Migration",
-            "API-First Architecture Design",
-            "Automated Data Workflows",
-            "Privacy & Security Frameworks"
-        ]
-    },
-    {
-        "title": "Brainstorming & Strategy",
-        "icon": "brain",
-        "description": "Explore innovative ways to solve specific problems by leveraging data, modern information technology, standards, APIs, and AI.",
-        "details": [
-            "AI Readiness Assessment",
-            "Technology Stack Selection",
-            "Knowledge Graph Strategy",
-            "Innovation Workshops"
-        ]
-    },
-    {
-        "title": "Tools & Custom Solutions",
-        "icon": "tools",
-        "description": "Extending open source tools and developing custom, high-performance software solutions tailored to your unique requirements.",
-        "details": [
-            "Python/TypeScript Development",
-            "FAIR-compliant Tooling",
-            "Custom API Integration",
-            "Open Source Extensions"
+            "Data Mananagement and Governance Strategies",
+            "API Driven Architectures",
+            "Automated Data and Metadata Workflows",
+            "AI Integration"
         ]
     },
     {
@@ -37,32 +15,54 @@
         "icon": "enrichment",
         "description": "Datasets/repository assessment, quality control/assurance, packaging, metadata capture, and AI readiness preparation.",
         "details": [
-            "DDI/SDMX Implementation",
-            "Automated Metadata Capture",
-            "Data Quality Pipelines",
+            "Data FAIRification",
+            "Metadata Capture and Inference",
+            "Quality Assurance",
             "FAIRification Services"
         ]
     },
     {
-        "title": "AI Deep Research",
+        "title": "Tools & Custom Solutions",
+        "icon": "tools",
+        "description": "Extending open source tools and developing custom, high-performance software solutions tailored to your unique requirements.",
+        "details": [
+            "FAIR-compliant Tooling",
+            "Python Development and Vibe coding",
+            "API Integration and Governance",
+            "Process automation and agentic workflows"
+        ]
+    },
+    {
+        "title": "Brainstorming & Strategy",
+        "icon": "brain",
+        "description": "Explore innovative ways to solve specific problems by leveraging data, modern information technology, standards, APIs, and AI.",
+        "details": [
+            "Assessement and Recommendations",
+            "AI Readiness",
+            "Knowledge Management",
+            "Innovation Workshops"
+        ]
+    },
+    {
+        "title": "Machine Intelligence",
         "icon": "research",
         "description": "Comprehensive reports and R&D on emerging AI topics, with multi-format outputs like audio overviews and interactive websites.",
         "details": [
-            "LLM Benchmarking",
+            "AI Readiness",
             "Agentic Workflow R&D",
             "Technical Whitepapers",
-            "Infographic Synthesis"
+            "Deep Research"
         ]
     },
     {
         "title": "Data Hosting & Public Services",
         "icon": "cloud",
-        "description": "High-availability data hosting in partnership with MTNA and HVDNet. Free for public services; private cloud for enterprises.",
+        "description": "High-value data delivery solutions that meet the needs of researchers, developpers,  and digital agents.",
         "details": [
-            "HVDNet Integration",
-            "Private Cloud Solutions",
-            "Secure Data Portals",
-            "Persistent Data Preservation"
+            "Catalogs & Repositories",
+            "FAIR Open Data APIs",
+            "Infrastructure Modernization",
+            "Cloud and OnSite Hosting"
         ]
     }
 ]
