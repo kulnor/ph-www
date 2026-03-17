@@ -5,9 +5,9 @@
         "range": "< $1,000 / day",
         "description": "Adjusted rates for organizations contributing to public good and open data initiatives.",
         "features": [
-            "Strategic Research",
-            "FAIRification",
-            "Workshop Facilitation"
+            "Data production and dissemination",
+            "Modernization and AI integration",
+            "Open Standards and Best Practices"
         ]
     },
     {
@@ -16,8 +16,8 @@
         "range": "$1,200+ / day",
         "description": "Standard rates for specialized high-value technical guidance—directly supporting my Pro-Bono mission.",
         "features": [
-            "Architectural Design",
-            "Enterprise AI Strategy",
+            "Architectural Design and Development",
+            "Enterprise Data and AI Strategy",
             "Priority Support"
         ]
     },
@@ -27,7 +27,7 @@
         "range": "$0 / day",
         "description": "Project-based sponsorship for global data standards and initiatives with high social impact.",
         "features": [
-            "Open Standards Work",
+            "Open Standards, Tools, and APIs",
             "Community Building",
             "Visionary Coaching"
         ]
