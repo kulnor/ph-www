@@ -1,6 +1,17 @@
 [
     {
-        "title": "Data & AI Digital Transformation",
+        "title": "Data Enrichment",
+        "icon": "enrichment",
+        "description": "Datasets/repository assessment, quality control/assurance, packaging, metadata capture, and AI readiness.",
+        "details": [
+            "Data FAIRification",
+            "Documentation and Knowledge Inference",
+            "Quality Assurance",
+            "Security and Disclosure Control"
+        ]
+    },
+    {
+        "title": "AI & Digital Transformation",
         "icon": "transformation",
         "description": "Guidance on transforming data management environments: technologies, practices, workflows, APIs, metadata standards, publication, and security/disclosure control.",
         "details": [
@@ -11,24 +22,13 @@
         ]
     },
     {
-        "title": "Dataset Enrichment",
-        "icon": "enrichment",
-        "description": "Datasets/repository assessment, quality control/assurance, packaging, metadata capture, and AI readiness preparation.",
-        "details": [
-            "Data FAIRification",
-            "Metadata Capture and Inference",
-            "Quality Assurance",
-            "FAIRification Services"
-        ]
-    },
-    {
         "title": "Tools & Custom Solutions",
         "icon": "tools",
         "description": "Extending open source tools and developing custom, high-performance software solutions tailored to your unique requirements.",
         "details": [
             "FAIR-compliant Tooling",
             "Python Development and Vibe coding",
-            "API Integration and Governance",
+            "API Implementation and Governance",
             "Process automation and agentic workflows"
         ]
     },
