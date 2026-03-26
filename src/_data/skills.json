@@ -1,54 +1,33 @@
 {
-    "development": {
-        "strong": [
-            "Python",
-            "Node.js",
-            "TS / React",
-            "GitHub / CoPilot"
-        ],
-        "comfortable": [
-            "Rust",
-            "Java",
-            "Alpine.js"
-        ],
-        "legacy": [
-            "C",
-            "C++",
-            "COBOL",
-            "Pascal",
-            "Clipper"
-        ]
-    },
-    "apis": {
-        "strong": [
-            "OpenAPI",
-            "REST",
-            "Postman"
-        ],
-        "comfortable": [
-            "GraphQL",
-            "AsyncAPI",
-            "SPARQL"
-        ]
-    },
-    "ai": [
-        "Vibe Coding",
-        "Google",
-        "Anthropic",
-        "Agents",
+    "technology": [
+        "Python",
+        "Node",
+        "APIs",
+        "Shell",
+        "Vibe Coding"
+    ],
+    "data": [
+        "SQL",
+        "JSON",
+        "RDF",
+        "XML",
         "Knowledge Graphs"
     ],
-    "metadata": [
-        "DDI",
-        "FAIR",
-        "JSON",
-        "RDF / Graphs",
-        "XML",
-        "DCAT"
+    "ai": [
+        "Anthropic",
+        "Google",
+        "OpenAI",
+        "Agents",
+        "LLMs",
+        "MCP"
     ],
     "standards": [
         "CODATA CDIF",
         "Croissant",
-        "SDMX"
+        "DCAT",
+        "DDI",
+        "SDMX",
+        "schema.org",
+        "SKOS/XKOS"
     ]
 }

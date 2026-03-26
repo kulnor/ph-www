@@ -1,0 +1,83 @@
+[
+  {
+    "name": "The World Bank",
+    "acronym": "World Bank",
+    "url": "https://www.worldbank.org",
+    "logo": "/assets/img/worldbank_logo.png"
+  },
+  {
+    "name": "Statistics Canada",
+    "acronym": "StatCan",
+    "url": "https://www.statcan.gc.ca",
+    "logo": "/assets/img/statcan_logo.png",
+    "invert": true
+  },
+  {
+    "name": "Postman",
+    "acronym": "Postman",
+    "url": "https://www.postman.com",
+    "logo": "/assets/img/postman_logo.png"
+  },
+  {
+    "name": "CODATA",
+    "acronym": "CODATA",
+    "url": "https://www.codata.org",
+    "logo": "/assets/img/codata_logo.png"
+  },
+  {
+    "name": "Statistics New Zealand",
+    "acronym": "SNZ",
+    "url": "https://www.stats.govt.nz",
+    "logo": "/assets/img/snz_logo.png"
+  },
+  {
+    "name": "datHere  ",
+    "acronym": "datHere",
+    "url": "https://dathere.com/",
+    "logo": "/assets/img/dathere_logo.png"
+  },
+  {
+    "name": "UK Data Services",
+    "acronym": "UKDS",
+    "url": "https://www.ukdataservice.ac.uk",
+    "logo": "/assets/img/ukds_logo.png"
+  },
+  {
+    "name": "DDI Alliance",
+    "acronym": "DDI",
+    "url": "https://ddialliance.org",
+    "logo": "/assets/img/ddi_logo.png"
+  },
+  {
+    "name": "International Housedhold Survey Network",
+    "acronym": "IHSN",
+    "url": "https://www.ihsn.org",
+    "logo": "/assets/img/ihsn_logo.png"
+  },
+  {
+    "name": "NORC",
+    "acronym": "NORC",
+    "url": "https://www.norc.org",
+    "logo": "/assets/img/norc_logo.png",
+    "invert": true
+  },
+  {
+    "name": "Metadata Technology North America",
+    "acronym": "MTNA",
+    "url": "https://www.mtna.com",
+    "logo": "/assets/img/mtna_logo.png"
+  },
+  {
+    "name": "U.S. National Science Foundation",
+    "acronym": "NSF",
+    "url": "https://www.nsf.gov",
+    "logo": "/assets/img/nsf_logo.png"
+  },
+  {
+    "name": "Collecge Board",
+    "acronym": "CB",
+    "url": "https://www.collegeboard.org",
+    "logo": "/assets/img/collegeboard_logo.png",
+    "invert": true
+  }
+]

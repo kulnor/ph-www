@@ -3,109 +3,28 @@ layout: layouts/base.njk
 title: Pascal Heus | Data, Metadata & AI Strategist
 ---
 
-<!-- Hero Section -->
+<!-- Hero Section (0-3 seconds) -->
 <section class="relative min-h-screen flex items-center px-6 overflow-hidden pt-20">
-
-
-    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
-        <div class="space-y-8 z-10" 
+    <div class="max-w-7xl mx-auto relative z-10 text-center lg:text-left">
+        <div class="max-w-4xl mx-auto lg:mx-0 space-y-8"
              x-data="{ show: false }" x-init="setTimeout(() => show = true, 100)"
              x-show="show" x-transition:enter="transition ease-out duration-1000" x-transition:enter-start="opacity-0 translate-y-10" x-transition:enter-end="opacity-100 translate-y-0">
             
-            
-            
-            <h1 class="text-4xl sm:text-6xl md:text-8xl font-black font-display leading-[1.1] md:leading-[0.9] tracking-tighter">
-                Elevating <span class="text-gradient">Data</span> into Actionable Knowledge.
+            <h1 class="text-3xl sm:text-5xl md:text-7xl font-black font-display leading-[1.1] md:leading-[0.95] tracking-tighter">
+                Elevating <span class="text-gradient">Data</span> into Actionable <span class="text-gradient">Knowledge.</span>
             </h1>
             
-            <p class="text-lg sm:text-xl text-slate-300 max-w-lg leading-relaxed">
-                Bridging technical depth with creative flair to transform data into high-value digital commodity. I combine a lifelong passion for data and technology with a personal commitment to every mission I undertake.
+            <p class="text-lg sm:text-xl text-slate-300 max-w-2xl leading-relaxed mx-auto lg:mx-0">
+                I transform fragmented, undocumented datasets into high-value digital commodities. By leveraging <strong>FAIR principles</strong>, <strong>metadata driven automated pipelines</strong>, and <strong>machine intelligence</strong>, I help organizations bridge the gap between dark data and user-friendly AI-ready data products.
             </p>
 
-            
-            <div class="flex flex-col sm:flex-row gap-4 pt-4">
-                <a href="/#services" class="btn-primary flex justify-center items-center">
-                    Explore Services
+            <div class="flex flex-col sm:flex-row gap-4 pt-4 justify-center lg:justify-start">
+                <a href="/#contact" class="btn-primary flex justify-center items-center">
+                    Book a Data Strategy Consultation
                 </a>
                 <a href="https://linkedin.com/in/pascal" target="_blank" class="glass px-6 py-3 rounded-full font-semibold flex justify-center items-center hover:bg-white/10 transition-all">
                     View LinkedIn
                 </a>
-            </div>
-        </div>
-
-        <div class="relative hidden lg:block"
-             x-data="{ show: false }" x-init="setTimeout(() => show = true, 400)"
-             x-show="show" x-transition:enter="transition ease-out duration-1000" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100">
-            
-            <!-- Glassy Stats/Quick Info Card -->
-            <div class="glass p-8 rounded-3xl relative overflow-hidden group border-white/5 shadow-2xl z-10">
-                <!-- Top-Right Small Square Avatar -->
-                <div class="absolute top-4 right-4 z-20">
-                    <div class="h-16 w-16 rounded-lg border border-white/20 overflow-hidden shadow-2xl">
-                        <img src="/assets/img/ph2025_01.png" alt="Pascal Heus" class="w-full h-full object-cover">
-                    </div>
-                </div>
-
-                <!-- Background Glows -->
-                <div class="absolute -right-10 -top-10 w-40 h-40 bg-primary-500/10 rounded-full blur-3xl group-hover:bg-primary-500/20 transition-all duration-700 z-0"></div>
-                <div class="absolute -left-10 -bottom-10 w-40 h-40 bg-purple-500/5 rounded-full blur-3xl group-hover:bg-purple-500/10 transition-all duration-700 z-0"></div>
-                
-                <!-- Card Content -->
-                <div class="relative z-10 space-y-6">
-                    <div class="flex items-center space-x-2 text-[10px] font-bold uppercase tracking-[0.2em] text-primary-400">
-                        <span class="relative flex h-2 w-2">
-                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-400 opacity-75"></span>
-                            <span class="relative inline-flex rounded-full h-2 w-2 bg-primary-500"></span>
-                        </span>
-                        <span>Available for Strategic Consultancies</span>
-                    </div>
-                    
-                    <div class="space-y-2">
-                        <span class="text-slate-400 text-sm font-medium uppercase tracking-widest">IT Experience</span>
-                        <div class="text-[3.0rem] font-black font-display tracking-tight leading-none">40+ Years</div>
-                    </div>
-                    
-                    <div class="flex items-start gap-8">
-                        <div class="space-y-2">
-                            <span class="text-slate-400 text-xs font-bold uppercase tracking-widest leading-none">High-Value Data</span>
-                            <div class="text-2xl font-black text-green-400 leading-none">25+ Years</div>
-                        </div>
-                        <div class="space-y-2">
-                            <span class="text-slate-400 text-xs font-bold uppercase tracking-widest leading-none">Metadata</span>
-                            <div class="text-2xl font-black text-primary-400 leading-none">Open/FAIR</div>
-                        </div>
-                        <div class="space-y-2">
-                            <span class="text-slate-400 text-xs font-bold uppercase tracking-widest leading-none">AI</span>
-                            <div class="text-2xl font-black text-purple-400 leading-none">Agentic</div>
-                        </div>
-                    </div>
-
-                    <hr class="border-white/10">
-
-                    <div class="flex items-center space-x-3 text-slate-300">
-                        <div class="h-8 w-8 rounded-lg bg-green-500/20 flex items-center justify-center shrink-0">
-                            <svg class="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        </div>
-                        <span class="text-sm font-medium">Technical Mastery. Data Craftsmanship. Creative Vision.</span>
-                    </div>
-
-                    <div class="flex items-center space-x-3 text-slate-300">
-                        <div class="h-8 w-8 rounded-lg bg-primary-500/20 flex items-center justify-center shrink-0">
-                            <svg class="w-4 h-4 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                        </div>
-                        <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Canada 🇨🇦 • Serving Globally 🌎</span>
-                    </div>
-
-                    <div class="pt-4 border-t border-white/10">
-                        <div class="flex flex-wrap gap-2">
-                            {% for service in services %}
-                            <a href="#service-{{ loop.index }}" class="px-3 py-1.5 rounded-lg bg-primary-500/10 border border-primary-500/20 text-[10px] sm:text-xs font-bold uppercase tracking-wider text-primary-300 hover:bg-primary-500/20 transition-colors">
-                                {{ service.title }}
-                            </a>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -115,82 +34,141 @@ title: Pascal Heus | Data, Metadata & AI Strategist
     </div>
 </section>
 
-<!-- Services Portfolio -->
-<section id="services" class="py-20 px-6">
+<!-- Trust Ribbon — Animated Ticker -->
+<section id="trust" class="py-16 bg-slate-900/40 px-6 border-y border-white/5 overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+        <div class="mb-10 text-center">
+            <p class="text-xs font-black uppercase tracking-[0.2em] text-slate-500 mb-2">Strategic Expertise for Global Data Governance</p>
+            <div class="h-1 w-16 bg-primary-500/30 rounded-full mx-auto"></div>
+        </div>
+    </div>
+
+    <!-- Ticker wrapper with fade edges -->
+    <div class="relative" style="-webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent); mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);">
+        <div class="flex animate-ticker" style="width: max-content;">
+            <!-- First copy -->
+            {% for org in trust %}
+            <a href="{{ org.url }}" target="_blank" title="{{ org.name }}" class="flex flex-col items-center group transition-all duration-300 hover:scale-105 opacity-80 hover:opacity-100 mx-12 md:mx-16 shrink-0">
+                <img src="{{ org.logo }}" alt="{{ org.name }}" class="h-12 md:h-16 max-w-[160px] w-auto object-contain brightness-125 grayscale-[50%] group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-300 {{ 'invert' if org.invert }}">
+            </a>
+            {% endfor %}
+            <!-- Duplicate for seamless loop -->
+            {% for org in trust %}
+            <a href="{{ org.url }}" target="_blank" title="{{ org.name }}" class="flex flex-col items-center group transition-all duration-300 hover:scale-105 opacity-80 hover:opacity-100 mx-12 md:mx-16 shrink-0">
+                <img src="{{ org.logo }}" alt="{{ org.name }}" class="h-12 md:h-16 max-w-[160px] w-auto object-contain brightness-125 grayscale-[50%] group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-300 {{ 'invert' if org.invert }}">
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <style>
+        @keyframes ticker {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-ticker {
+            animation: ticker 20s linear infinite;
+        }
+        .animate-ticker:hover {
+            animation-play-state: paused;
+        }
+    </style>
+</section>
+
+<!-- Three Pillars Grid -->
+<section id="expertise" class="py-20 px-6">
     <div class="max-w-7xl mx-auto">
         <div class="mb-12 space-y-4 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold font-display tracking-tight">Services Portfolio</h2>
+            <h2 class="text-4xl md:text-5xl font-bold font-display tracking-tight">Core <span class="text-gradient">Pillars</span></h2>
             <div class="h-1.5 w-24 bg-primary-500 rounded-full mx-auto"></div>
-            <p class="text-slate-400 max-w-2xl mx-auto">
-                High-impact, short-term strategic guidance at the intersection of data science and AI. 
-                <strong>Consultancy fees directly fund my continued leadership in open standards and pro-bono contributions to the global data community.</strong>
-            </p>
+            <p class="text-slate-400 max-w-2xl mx-auto">Solving the most critical challenges in modern data governance.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {% for service in services %}
-            <div id="service-{{ loop.index }}" class="glass p-8 rounded-2xl hover:border-primary-500/50 transition-all duration-300 group flex flex-col hover:shadow-2xl hover:shadow-primary-500/10">
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Automation & AI Readiness -->
+            <div class="glass p-8 rounded-2xl hover:border-primary-500/50 transition-all duration-300 group flex flex-col hover:shadow-2xl hover:shadow-primary-500/10">
                 <div class="h-12 w-12 bg-primary-500/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-primary-500/20 transition-all">
-                    {% if service.icon == 'transformation' %}
                     <svg aria-hidden="true" class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                    {% elif service.icon == 'brain' %}
-                    <svg aria-hidden="true" class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
-                    {% elif service.icon == 'tools' %}
-                    <svg aria-hidden="true" class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
-                    {% elif service.icon == 'enrichment' %}
-                    <svg aria-hidden="true" class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
-                    {% elif service.icon == 'research' %}
-                    <svg aria-hidden="true" class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 01-.586 1.414l-2.387 2.387a2 2 0 01-1.414.586H8.966a2 2 0 01-1.414-.586L5.166 11.586A2 2 0 014.58 10.172V5L4 4h4z"></path></svg>
-                    {% else %}
-                    <svg aria-hidden="true" class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
-                    {% endif %}
                 </div>
-                <h3 class="text-xl font-bold mb-4">{{ service.title }}</h3>
-                <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                    {{ service.description }}
-                </p>
-                <div class="space-y-2 mt-auto">
-                    {% for detail in service.details %}
-                    <div class="flex items-center space-x-2 text-xs text-slate-300">
-                        <span class="w-1.5 h-1.5 rounded-full bg-primary-500/50"></span>
-                        <span>{{ detail }}</span>
+                <h3 class="text-xl font-bold mb-3">Automation & AI Readiness</h3>
+                <div class="space-y-4 flex-grow">
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-[0.2em] text-red-400">Problem</span>
+                        <p class="text-sm text-slate-400 leading-relaxed mt-1">Your data and documentation may be "human-readable", but is likely invisible to machines.</p>
                     </div>
-                    {% endfor %}
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-[0.2em] text-green-400">Solution</span>
+                        <p class="text-sm text-slate-300 leading-relaxed mt-1">
+                        I build the high-performance <strong>APIs</strong> and <strong>metadata frameworks</strong> 
+                        to enable process automation and data required to turn stagnant data silos into structured,
+                        AI-ready assets.</p>
+                    </div>
                 </div>
             </div>
-            {% endfor %}
+
+            <!-- Data Trust & Compliance -->
+            <div class="glass p-8 rounded-2xl hover:border-purple-500/50 transition-all duration-300 group flex flex-col hover:shadow-2xl hover:shadow-purple-500/10">
+                <div class="h-12 w-12 bg-purple-500/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-purple-500/20 transition-all">
+                    <svg aria-hidden="true" class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Data Quality & Trust</h3>
+                <div class="space-y-4 flex-grow">
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-[0.2em] text-red-400">Problem</span>
+                        <p class="text-sm text-slate-400 leading-relaxed mt-1">Lack of machine-actionable documentation, proper packaging, or privacy issues affect data sharing.</p>
+                    </div>
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-[0.2em] text-green-400">Solution</span>
+                        <p class="text-sm text-slate-300 leading-relaxed mt-1">
+                        I combine specialized tools, creative programming, and AI with data science and engineering expertise to 
+                        transform your data into high quality products, meeting the need of data users and agents.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Global Interoperability -->
+            <div class="glass p-8 rounded-2xl hover:border-green-500/50 transition-all duration-300 group flex flex-col hover:shadow-2xl hover:shadow-green-500/10">
+                <div class="h-12 w-12 bg-green-500/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-green-500/20 transition-all">
+                    <svg aria-hidden="true" class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Global Interoperability</h3>
+                <div class="space-y-4 flex-grow">
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-[0.2em] text-red-400">Problem</span>
+                        <p class="text-sm text-slate-400 leading-relaxed mt-1">Proprietary or legacy systems build on outdated technologies that don't talk to each other.</p>
+                    </div>
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-[0.2em] text-green-400">Solution</span>
+                        <p class="text-sm text-slate-300 leading-relaxed mt-1">
+                        I modernize your environment to empower data processig workflows and align with FAIR principle and international standards,
+                        ensuring your data is discoverable and integrable on a global scale.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- Experience / Professional Journey -->
-<section id="about" class="py-20 bg-slate-900/40 px-6 border-y border-white/5">
+<!-- Technical Edge (For Scanners who stay) -->
+<section id="edge" class="py-20 px-6">
     <div class="max-w-7xl mx-auto">
         <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
-            <div class="space-y-6 lg:space-y-8 lg:sticky lg:top-32">
-                <h2 class="text-3xl md:text-4xl font-bold font-display tracking-tight">Professional Journey</h2>
+            <!-- Left: Description & Skills -->
+            <div class="space-y-6 lg:space-y-8">
+                <div class="space-y-4">
+                    <h2 class="text-3xl md:text-4xl font-bold font-display tracking-tight">The Technical <span class="text-gradient">Edge</span></h2>
+                    <div class="h-1.5 w-20 bg-primary-500 rounded-full"></div>
+                </div>
+
                 <p class="text-base md:text-lg text-slate-300 leading-relaxed max-w-lg">
-                    Data is the heartbeat of knowledge and AI. For over forty years, my journey hasn't just been about tracking technology, but intentionally shaping it with a blend of technical precision and creative curiosity.
+                    I provide a rare intersection of deep <strong>data engineering</strong> and <strong>information science</strong>.   
+                    I build the <strong>open-source</strong> tools that powers modern digital transformation, 
+                    collaborate with organizatons and agencies leading <strong>standards and best practices</strong>,
+                    and support data stewards in their <strong>digital transformation</strong> journey, 
+                    to ensure high-value data is equally accessible to <strong>humans and machines</strong>.
                 </p>
-                <div class="space-y-2">
-                    <p class="text-xs md:text-sm text-slate-400 font-medium uppercase tracking-widest">
-                        Based in Canada 🇨🇦 • Serving Globally 🌎
-                    </p>
-                    <p class="text-xs md:text-sm text-slate-400 font-medium uppercase tracking-widest">
-                        English 🇬🇧 & Français 🇫🇷
-                    </p>
-                </div>
-                
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 pt-2">
-                    <div class="glass p-5 md:p-6 rounded-2xl border-white/5 shadow-xl">
-                        <div class="text-3xl md:text-4xl font-bold font-display text-primary-400 tracking-tighter">40y</div>
-                        <div class="text-[10px] text-slate-400 uppercase tracking-[0.2em] font-black mt-2 text-nowrap">IT Excellence</div>
-                    </div>
-                    <div class="glass p-5 md:p-6 rounded-2xl border-white/5 shadow-xl">
-                        <div class="text-3xl md:text-4xl font-bold font-display text-purple-400 tracking-tighter">25y</div>
-                        <div class="text-[10px] text-slate-400 uppercase tracking-[0.2em] font-black mt-2 text-nowrap">High-Value Data / Metadata</div>
-                    </div>
-                </div>
 
                 <div class="pt-2">
                     <a href="/assets/docs/HeusPascal.pdf" download class="inline-flex items-center space-x-2 glass px-6 py-3 rounded-xl font-bold hover:bg-white/10 transition-all border-white/10 text-sm w-full sm:w-auto justify-center md:justify-start">
@@ -198,231 +176,107 @@ title: Pascal Heus | Data, Metadata & AI Strategist
                         <span>Download Full Resume</span>
                     </a>
                 </div>
+            </div>
 
-                <!-- Skill Tags -->
-                <div class="pt-8">
-                    <h4 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-6">Mastered Technologies</h4>
-                    <div class="flex flex-wrap gap-2">
-                        {% for skill in skills.development.strong %}
-                        <span class="px-3 py-1.5 rounded-lg bg-primary-500/5 border border-primary-500/20 text-xs font-medium text-primary-300">{{ skill }}</span>
-                        {% endfor %}
-                        {% for api in skills.apis.strong %}
-                        <span class="px-3 py-1.5 rounded-lg bg-purple-500/5 border border-purple-500/20 text-xs font-medium text-purple-300">{{ api }}</span>
-                        {% endfor %}
-                        {% for ai in skills.ai %}
-                        <span class="px-3 py-1.5 rounded-lg bg-green-500/5 border border-green-500/20 text-xs font-medium text-green-300">{{ ai }}</span>
-                        {% endfor %}
+            <!-- Right: Glassy Stats Card (carried over from old hero) -->
+            <div class="relative"
+                 x-data="{ show: false }" x-init="setTimeout(() => show = true, 200)"
+                 x-show="show" x-transition:enter="transition ease-out duration-1000" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100">
+                
+                <div class="glass p-8 rounded-3xl relative overflow-hidden group border-white/5 shadow-2xl z-10">
+                    <!-- Top-Right Small Square Avatar -->
+                    <div class="absolute top-4 right-4 z-20">
+                        <div class="h-16 w-16 rounded-lg border border-white/20 overflow-hidden shadow-2xl">
+                            <img src="/assets/img/ph2025_01.png" alt="Pascal Heus" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+
+                    <!-- Background Glows -->
+                    <div class="absolute -right-10 -top-10 w-40 h-40 bg-primary-500/10 rounded-full blur-3xl group-hover:bg-primary-500/20 transition-all duration-700 z-0"></div>
+                    <div class="absolute -left-10 -bottom-10 w-40 h-40 bg-purple-500/5 rounded-full blur-3xl group-hover:bg-purple-500/10 transition-all duration-700 z-0"></div>
+                    
+                    <!-- Card Content -->
+                    <div class="relative z-10 space-y-6">
+                        <div class="flex items-center space-x-2 text-[10px] font-bold uppercase tracking-[0.2em] text-primary-400">
+                            <span class="relative flex h-2 w-2">
+                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-2 w-2 bg-primary-500"></span>
+                            </span>
+                            <span>Available for Strategic Consultancies</span>
+                        </div>
+                        
+                        <div class="space-y-2">
+                            <span class="text-slate-400 text-sm font-medium uppercase tracking-widest">IT Experience</span>
+                            <div class="text-[3.0rem] font-black font-display tracking-tight leading-none">40+ Years</div>
+                        </div>
+                        
+                        <div class="flex items-start gap-8">
+                            <div class="space-y-2">
+                                <span class="text-slate-400 text-xs font-bold uppercase tracking-widest leading-none">High-Value Data</span>
+                                <div class="text-2xl font-black text-green-400 leading-none">25+ Years</div>
+                            </div>
+                            <div class="space-y-2">
+                                <span class="text-slate-400 text-xs font-bold uppercase tracking-widest leading-none">Metadata</span>
+                                <div class="text-2xl font-black text-primary-400 leading-none">Open/FAIR</div>
+                            </div>
+                            <div class="space-y-2">
+                                <span class="text-slate-400 text-xs font-bold uppercase tracking-widest leading-none">AI</span>
+                                <div class="text-2xl font-black text-purple-400 leading-none">Agentic</div>
+                            </div>
+                        </div>
+
+                        <hr class="border-white/10">
+
+                        <div class="flex items-center space-x-3 text-slate-300">
+                            <div class="h-8 w-8 rounded-lg bg-green-500/20 flex items-center justify-center shrink-0">
+                                <svg class="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-sm font-medium">Technical Mastery. Data Craftsmanship. Creative Vision.</span>
+                        </div>
+
+                        <div class="flex items-center space-x-3 text-slate-300">
+                            <div class="h-8 w-8 rounded-lg bg-primary-500/20 flex items-center justify-center shrink-0">
+                                <svg class="w-4 h-4 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            </div>
+                            <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Canada 🇨🇦 • Serving Globally • 🌎 nEglish 🇬🇧 Français 🇫🇷</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="space-y-12">
-                {% for exp in experience %}
-                <div class="relative pl-8 border-l border-white/10 group">
-                    <div class="absolute w-3 h-3 bg-primary-500 rounded-full -left-[6.5px] top-1.5 shadow-[0_0_10px_rgba(14,165,233,0.5)] group-hover:scale-125 transition-transform"></div>
-                    <div class="space-y-2">
-                        <span class="text-xs font-bold text-primary-500 uppercase tracking-widest">{{ exp.period }}</span>
-                        <h3 class="text-2xl font-bold font-display">{{ exp.role }}</h3>
-                        <p class="text-slate-400 font-semibold">{{ exp.company }}</p>
-                        <p class="text-sm text-slate-400 leading-relaxed mb-4 italic">{{ exp.description }}</p>
-                        <ul class="space-y-2 mt-4">
-                            {% for highlight in exp.highlights %}
-                            <li class="text-sm text-slate-300 flex items-start space-x-3">
-                                <svg class="w-4 h-4 mt-0.5 text-primary-500/50 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>{{ highlight }}</span>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
+        </div>
+
+        {# Mastered Technologies — commented out, may bring back later
+        <div class="pt-12 text-center">
+            <h4 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-6">Mastered Technologies</h4>
+            <div class="flex flex-wrap justify-center gap-2">
+                {% for item in skills.technology %}
+                <span class="px-3 py-1.5 rounded-lg bg-primary-500/5 border border-primary-500/20 text-xs font-medium text-primary-300">{{ item }}</span>
+                {% endfor %}
+                {% for item in skills.data %}
+                <span class="px-3 py-1.5 rounded-lg bg-purple-500/5 border border-purple-500/20 text-xs font-medium text-purple-300">{{ item }}</span>
+                {% endfor %}
+                {% for item in skills.ai %}
+                <span class="px-3 py-1.5 rounded-lg bg-orange-500/5 border border-orange-500/20 text-xs font-medium text-orange-300">{{ item }}</span>
+                {% endfor %}
+                {% for item in skills.standards %}
+                <span class="px-3 py-1.5 rounded-lg bg-green-500/5 border border-green-500/20 text-xs font-medium text-green-300">{{ item }}</span>
                 {% endfor %}
             </div>
         </div>
+        #}
     </div>
 </section>
-
-<!-- Rates & Fees Section -->
-<section id="rates" class="py-20 px-6">
-    <div class="max-w-7xl mx-auto">
-        <div class="mb-12 space-y-4">
-            <h2 class="text-4xl font-bold font-display">Consulting Rates</h2>
-            <div class="h-1.5 w-20 bg-primary-500 rounded-full"></div>
-            <p class="text-slate-400 max-w-2xl mt-4 italic">
-                These figures are guidelines. I prioritize high-impact partnership and value creation over rigid fee structures.
-                <strong>Consultancy fees directly subsidize my commitment to open-source development and pro-bono services for social impact.</strong>
-            </p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-8">
-            {% for rate in rates %}
-            <div class="glass p-10 rounded-3xl flex flex-col hover:border-primary-500/30 transition-all border-white/5 shadow-2xl">
-                <span class="text-[10px] font-black uppercase tracking-[0.2em] text-primary-500 mb-4">{{ rate.category }}</span>
-                <h3 class="text-xl font-bold mb-1">{{ rate.target }}</h3>
-                <div class="text-3xl font-black font-display text-white mt-4">{{ rate.range }}</div>
-                <p class="text-sm text-slate-400 mt-6 leading-relaxed mb-8 flex-grow">{{ rate.description }}</p>
-                
-                <div class="space-y-3 pt-6 border-t border-white/5">
-                    {% for feature in rate.features %}
-                    <div class="flex items-center space-x-3 text-xs text-slate-300">
-                        <svg class="w-4 h-4 text-primary-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        <span>{{ feature }}</span>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-        
-        <div class="mt-12 p-8 glass rounded-3xl border-primary-500/10 text-center space-y-4">
-            <p class="text-sm text-slate-300 font-medium">
-                "My goal is to foster a more data-actionable world. If we share a vision, cost will never be the barrier."
-            </p>
-            <p class="text-xs text-slate-400 italic">
-                By choosing my strategic services, you are directly supporting the development of open data standards and providing machine-actionable knowledge to those who need it most.
-            </p>
-        </div>
-    </div>
-</section>
-
-<!-- Project Selection Criteria -->
-<section id="criteria" class="py-20 bg-slate-900/40 px-6 border-y border-white/5">
-    <div class="max-w-7xl mx-auto">
-        <div class="mb-12 space-y-4 text-center">
-            <h2 class="text-4xl font-bold font-display leading-tight">Selective Focus.<br><span class="text-gradient">Personal Partnership.</span></h2>
-            <div class="h-1.5 w-20 bg-green-500 rounded-full mx-auto"></div>
-            <p class="text-slate-400 mt-4 max-w-xl mx-auto">I believe every collaboration is personal. I selectively partner on missions where I can fully immerse myself in your vision, ensuring your data’s potential is unleashed with genuine care.</p>
-        </div>
-
-        <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
-            {% for item in criteria %}
-            <div class="glass p-6 rounded-2xl flex flex-col items-center text-center space-y-4 hover:border-green-500/30 transition-all">
-                <div class="h-10 w-10 bg-green-500/10 rounded-full flex items-center justify-center">
-                    <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                </div>
-                <h3 class="font-bold text-sm uppercase tracking-wider">{{ item.title }}</h3>
-                <p class="text-xs text-slate-400 leading-relaxed">{{ item.description }}</p>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<!-- Latest Insights / Articles -->
-<section id="insights" class="py-20 px-6">
-    <div class="max-w-7xl mx-auto">
-        <div class="mb-12 space-y-4">
-            <h2 class="text-4xl font-bold font-display leading-tight">Latest <span class="text-gradient">Insights</span></h2>
-            <div class="h-1.5 w-20 bg-primary-500 rounded-full"></div>
-            <p class="text-slate-400 max-w-2xl">Sharing my perspectives on the future of data, the intersection of metadata and AI, and the craft of high-value knowledge.</p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-8">
-            <!-- Substack -->
-            <a href="https://plgah.substack.com/" target="_blank" class="glass p-8 rounded-3xl flex items-center space-x-6 hover:bg-white/10 transition-all group border-white/5">
-                <div class="p-4 bg-orange-500/10 rounded-2xl group-hover:bg-orange-500/20 transition-colors">
-                    <svg class="w-8 h-8 text-[#FF6719]" fill="currentColor" viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.078v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.078V0z"/></svg>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold">Substack</h3>
-                    <p class="text-xs text-slate-400 font-medium uppercase tracking-widest mt-1">Deep Dives</p>
-                </div>
-            </a>
-
-            <!-- Medium -->
-            <a href="https://medium.com/@plgah" target="_blank" class="glass p-8 rounded-3xl flex items-center space-x-6 hover:bg-white/10 transition-all group border-white/5">
-                <div class="p-4 bg-white/5 rounded-2xl group-hover:bg-white/10 transition-colors">
-                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42a3.34 3.34 0 01-3.38-6.42c0-3.54 1.51-6.42 3.38-6.42s3.38 2.88 3.38 6.42zm3.04 0c0 3.14-.59 5.7-1.31 5.7s-1.31-2.56-1.31-5.7.59-5.7 1.31-5.7 1.31 2.56 1.31 5.7z"/></svg>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold">Medium</h3>
-                    <p class="text-xs text-slate-400 font-medium uppercase tracking-widest mt-1">Tech & AI</p>
-                </div>
-            </a>
-
-            <!-- LinkedIn Articles -->
-            <a href="https://www.linkedin.com/in/pascal/recent-activity/articles/" target="_blank" class="glass p-8 rounded-3xl flex items-center space-x-6 hover:bg-white/10 transition-all group border-white/5">
-                <div class="p-4 bg-[#0A66C2]/10 rounded-2xl group-hover:bg-[#0A66C2]/20 transition-colors">
-                    <svg class="w-8 h-8 text-[#0A66C2]" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold">LinkedIn</h3>
-                    <p class="text-xs text-slate-400 font-medium uppercase tracking-widest mt-1">Industry Insights</p>
-                </div>
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- R&D & Community Section -->
-<section id="projects" class="py-20 px-6 overflow-hidden relative">
-    <div class="absolute -right-64 top-0 w-96 h-96 bg-primary-500/5 rounded-full blur-[120px]"></div>
-    <div class="max-w-7xl mx-auto">
-        <div class="mb-12 space-y-4">
-            <h2 class="text-4xl font-bold font-display leading-tight">Giving Back: <span class="text-gradient">R&D & Community</span></h2>
-            <div class="h-1.5 w-20 bg-purple-500 rounded-full"></div>
-            <p class="text-slate-400 max-w-2xl">A selection of open-source projects, global standards, and visionary data initiatives I actively contribute to or lead.</p>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {% for project in projects %}
-            <a href="{{ project.url }}" target="_blank" class="glass p-6 rounded-2xl hover:bg-white/10 transition-all group relative overflow-hidden">
-                <div class="absolute right-4 top-4 opacity-10 group-hover:opacity-100 transition-opacity">
-                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </div>
-                <span class="text-[10px] font-bold uppercase tracking-widest text-purple-400 mb-2 block">{{ project.type }}</span>
-                <h3 class="text-lg font-bold mb-2 group-hover:text-primary-400 transition-colors">{{ project.title }}</h3>
-                <p class="text-sm text-slate-400 leading-relaxed">{{ project.description }}</p>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-{#
-<!-- Sponsorship Section -->
-<section id="sponsors" class="py-20 bg-slate-900/50 px-6">
-    <div class="max-w-7xl mx-auto">
-        <div class="mb-12 space-y-4">
-            <h2 class="text-4xl font-bold font-display">Sponsor My Vision</h2>
-            <div class="h-1.5 w-20 bg-orange-500 rounded-full"></div>
-            <p class="text-slate-400 max-w-2xl">Support my open-source and public service projects to foster a more data-actionable world.</p>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {% for tier in sponsors %}
-            <div class="glass p-8 rounded-[2rem] flex flex-col justify-between hover:scale-[1.02] transition-all border-white/5 shadow-xl relative overflow-hidden group">
-                 <div class="absolute -right-10 -top-10 w-24 h-24 bg-{{ tier.accent or 'primary' }}-500/5 rounded-full blur-2xl group-hover:bg-{{ tier.accent or 'primary' }}-500/10 transition-colors"></div>
-                 
-                 <div>
-                    <h3 class="text-lg font-bold mb-1">{{ tier.level }}</h3>
-                    <div class="text-3xl font-black font-display text-{{ tier.accent or 'primary' }}-400 mb-6">{{ tier.price }}<span class="text-sm font-normal text-slate-500"> / month</span></div>
-                    <p class="text-sm text-slate-300 leading-relaxed">{{ tier.benefit }}</p>
-                 </div>
-                 
-                 <a href="#" class="mt-8 py-3 rounded-xl bg-white/5 hover:bg-white/10 text-center text-xs font-bold uppercase tracking-widest transition-colors border border-white/5">
-                    Choose Plan
-                 </a>
-            </div>
-            {% endfor %}
-        </div>
-        
-        <p class="mt-12 text-center text-sm text-slate-500 italic">
-            In-kind donations (cloud services, subscriptions) are also welcome—benefits assessed on a case-by-case basis.
-        </p>
-    </div>
-</section>
-#}
 
 <!-- Final CTA -->
 <section id="contact" class="px-6 py-20">
     <div class="max-w-4xl mx-auto glass p-8 sm:p-12 md:p-20 rounded-[2rem] sm:rounded-[3rem] text-center space-y-8 relative overflow-hidden shadow-2xl border-white/5">
         <div class="absolute inset-0 bg-gradient-to-br from-primary-500/10 to-purple-500/10 -z-10 animate-pulse transition-duration-5000"></div>
-        <h2 class="text-3xl sm:text-5xl font-black font-display tracking-tight">Ready to elevate and unleash your data?</h2>
+        <h2 class="text-3xl sm:text-5xl font-black font-display tracking-tight">Ready to unleash your data?</h2>
                 <p class="text-lg sm:text-xl text-slate-300 max-w-xl mx-auto leading-relaxed">
-                    Whether you need strategic coaching or hands-on implementation of machine-actionable metadata, I'm looking forwards to collaborating with you.
+                    Whether you need strategic coaching or hands-on implementation of machine-actionable data solutions, I'm looking forwards to collaborating with you.
                 </p>
                 <div class="text-sm text-slate-400 mt-2">Based in Canada 🇨🇦 • Operating Globally 🌎</div>
-        <div class="flex flex-col sm:flex-row justify-center items-center gap-6 pt-6" x-data="{ copied: false, email: 'pascal@highvaluedata.net' }">
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-6 pt-6" x-data="{ copied: false, email: 'info@pascalheus.com' }">
              <!-- Email Click-to-Copy -->
              <button 
                 @click="navigator.clipboard.writeText(email); copied = true; setTimeout(() => copied = false, 2000)"
