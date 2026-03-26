@@ -64,7 +64,7 @@
   {
     "name": "Metadata Technology North America",
     "acronym": "MTNA",
-    "url": "https://www.mtna.com",
+    "url": "https://www.mtna.us",
     "logo": "/assets/img/mtna_logo.png"
   },
   {
@@ -79,5 +79,11 @@
     "url": "https://www.collegeboard.org",
     "logo": "/assets/img/collegeboard_logo.png",
     "invert": true
+  },
+  {
+    "name": "Rich Data Services",
+    "acronym": "RDS",
+    "url": "https://www.richdataservices.com",
+    "logo": "/assets/img/rds_logo.png"
   }
 ]
